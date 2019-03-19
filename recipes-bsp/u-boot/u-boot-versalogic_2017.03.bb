@@ -19,10 +19,10 @@ PROVIDES += "u-boot"
 
 #PV = "v2016.03+git${SRCPV}"
 
-SRCBRANCH = "2017.03-1.0.0-versalogic"
+SRCBRANCH = "master"
 LOCALVERSION = "-1.0.0-versalogic"
 
-SRC_URI = "git://github.com/Versalogic/u-boot-versalogic.git;branch=${SRCBRANCH};protocol=git"
+SRC_URI = "git://git@student.robotika.ceitec.vutbr.cz/DPBP/2018_bp_hybl_robocomm/u-boot-versalogic.git;branch=${SRCBRANCH};protocol=ssh"
 
 #SRCREV is the commit number, must be always changed for a new version
 SRCREV = "AUTOINC"
