@@ -1,4 +1,4 @@
-# Copyright (C) 2017 Versalogic 
+# Copyright (C) 2017 Versalogic
 # Based on u-boot-fslc.inc Copyright (C) 2012-2015 O.S. Systems Software LTDA.
 # Released under the MIT license (see COPYING.MIT for the terms)
 
@@ -22,7 +22,7 @@ PROVIDES += "u-boot"
 SRCBRANCH = "master"
 LOCALVERSION = "-1.0.0-versalogic"
 
-SRC_URI = "git://git@student.robotika.ceitec.vutbr.cz/DPBP/2018_bp_hybl_robocomm/u-boot-versalogic.git;branch=${SRCBRANCH};protocol=ssh"
+SRC_URI = "git://git@10.0.254.120:ac3-basestation/baseos/u-boot-versalogic.git;branch=${SRCBRANCH};protocol=ssh"
 
 #SRCREV is the commit number, must be always changed for a new version
 SRCREV = "AUTOINC"
@@ -30,4 +30,3 @@ SRCREV = "AUTOINC"
 S = "${WORKDIR}/git"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
-
