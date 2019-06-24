@@ -22,7 +22,7 @@ PROVIDES += "u-boot"
 SRCBRANCH = "master"
 LOCALVERSION = "-1.0.0-versalogic"
 
-SRC_URI = "git://git@10.0.254.120:ac3-basestation/baseos/u-boot-versalogic.git;branch=${SRCBRANCH};protocol=ssh"
+SRC_URI = "git://git@10.0.254.120/ac3-basestation/baseos/u-boot-versalogic.git;branch=${SRCBRANCH};protocol=ssh"
 
 #SRCREV is the commit number, must be always changed for a new version
 SRCREV = "AUTOINC"
